@@ -11,6 +11,8 @@ services:
       - ./app:/app
   php:
     build:
+      args:
+        - APP_ENV=dev
       context: .
       dockerfile: PHP.Dockerfile
     volumes:
