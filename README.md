@@ -5,3 +5,6 @@ specified in the `docker-compose.yaml` file on line 8.
 
 Then nginx server uses `/app/public` as the root directory.  That is where your
 index.php/index.html file should be.  Expand the file tree from here.
+
+## TODOs
+- Redo composer setup similar to this: https://hackernoon.com/get-composer-to-run-on-docker-container-a-how-to-guide-y86g36z7
